@@ -42,11 +42,18 @@ h2.dark {
   height: 100%;
   width: 100%;
   margin:auto;
-  background: url('../img/me-green.jpg') no-repeat 50% 50%;
+  background: url('../img/earth.jpg') no-repeat 50% 50%;
   display: table;
   top: 0;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.darken {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.8);
 }
 
 /*.parallax {
@@ -58,15 +65,16 @@ h2.dark {
 }*/
 
 .text-typing {
-  font: 300 2em/1 'Open Sans', sans-serif;
-  color: #222222;
-  padding: 2%;
-  position: relative;
+  font: 100 1em/1 'Open Sans', sans-serif;
+  color: #f1f1f1;
+  padding: 5%;
+
+  /* position: relative;
   top: 50%;
-  width: 55%;
-  transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.4);
-  margin-left: 5%;
+  width: 55%; */
+  /* transform: translateY(-50%); */
+  background-color: rgba(20, 20, 20, 0.5);
+  /* margin-left: 5%; */
   border-radius: 6px;
 }
 
@@ -77,22 +85,21 @@ h2.dark {
   background-size: cover;
   min-width: 100%;
   background-repeat: no-repeat;
-
   background-attachment: fixed;
 }
 
 .pimg1 {
-  background-image: url("../img/ux-team.jpg");
-  min-height: 100%;
+  background-image: url("../img/bitcoin.jpg");
+  min-height: 80%;
 }
 
 .pimg2 {
-  background-image: url("../img/voting_sessions.jpg");
+  background-image: url("../img/stocks.jpeg");
   min-height: 80%;
 }
 
 .pimg3 {
-  background-image: url("../img/sfweather.jpg");
+  background-image: url("../img/daytrading.jpg");
   min-height: 80%;
 }
 
@@ -148,7 +155,7 @@ h2.dark {
   background-color: #111;
   color: #fff;
   padding: 3%;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 6px;
 }
 
@@ -179,33 +186,12 @@ h2.dark {
   padding: 2%;
 }
 
-#blue-background {
-  background-color: #3c8bb6;
-  padding: 5% 0 3%;
-}
-
-#orange-background {
-  background-color: #f6931e;
-}
-
-#green-background {
-  background-color: #1abc9c;
-}
-
-#lime-background {
-  background-color: #E5EF3F;
-}
-
-#darkblue-background {
-  background-color: #34495e;
-}
-
-#lightblue-background {
-  background-color: #00afe1;
-}
-
 #bottom-img {
   background-color: #66d4ff;
+}
+
+#contact-text {
+  background-color: #020202;
 }
 
 #follow-text {
@@ -310,3 +296,45 @@ h2.dark {
     min-height: 50%;
   }
 }
+
+
+/* ======= particles =======*/
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.9);
+  /* background-color: #141414; */
+}
+
+.text {
+	/* position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	color: #ffe2c2;
+  /*  -webkit-text-stroke: 0.1px #ffe2c2; 5BDDEE
+	max-width: 90%;
+	padding: 2em 3em;
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: 'Open Sans', sans-serif;
+} */
+
+/* h1 {
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: -1px;
+} */
+
+/* a,
+a:visited {
+	color: #e34234;
+	transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+	color: #ba160c;
+} */

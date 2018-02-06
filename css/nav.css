@@ -28,20 +28,16 @@ body {
 #nav ul li a {
   display: block;
   padding: .8em;
-  /*background: #16a085;*/
-  /*background: #38619A;*/
-  background: #0B0C10;
+  background: #b25610; /*#b2561;*/
   color: white;
   text-decoration: none;
-  border-right: 1px solid #34495e;
+  border-right: 1px solid #723b06;
   font-size: .9em;
   opacity: .80;
 }
 #nav ul li a:hover {
-  background: #49afa6;
+  background: #ff8e36;
   color: #0B0C10;
-  /*background: #138a72;*/
-  /*background: #408BB4;*/
 }
 #nav ul li:last-of-type a {
   border-right: 0px;

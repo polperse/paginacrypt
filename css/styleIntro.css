@@ -14,7 +14,8 @@ html, body {
   margin:auto;
   /*background: url('https://static.pexels.com/photos/7097/people-coffee-tea-meeting.jpg');*/
   /*background: url('https://static.pexels.com/photos/76752/paper-note-ipad-76752.jpeg');*/
-  background: url('../img/pexels-photo-355465.jpeg') no-repeat 50% 50%;
+  /* background: url('../img/pexels-photo-355465.jpeg') no-repeat 50% 50%; */
+  background: url("../img/earth-at-night.jpeg") no-repeat 50% 50%;
   display: table;
   top: 0;
   background-size: cover;
@@ -38,8 +39,16 @@ html, body {
   font-family: 'Yantramanav', sans-serif;
   font-size: 400%;
   font-weight: 100;
-  color: #f1f1f1;
+  color: #ff8e36; /*#f1f1f1*/
   line-height: 70%; /*reducing space between lines*/
+  transition: all 0.5s;
+}
+
+.content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+  font-weight: 100;
+  color: #f2f2f2;
   transition: all 0.5s;
 }
 

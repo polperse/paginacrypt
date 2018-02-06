@@ -53,7 +53,7 @@ cursor.textContent = '|';
 function setProps(config) {
   var props = config;
   props.strings = config.strings || ['Put your string here...', 'and Enjoy!'];
-  props.typeSpeed = config.typeSpeed || 100;
+  props.typeSpeed = config.typeSpeed || 150;
   props.backSpeed = config.backSpeed || 50;
   props.backDelay = config.backDelay || 1500;
   props.startDelay = config.startDelay || 500;

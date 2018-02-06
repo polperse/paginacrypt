@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Polperse's Portfolio</title>
+  <title>Pensa en Crypto - Clases particulares de Introduccion, Interpretacion de Graficos y Patrones de Cryptomonedas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nav.css">
@@ -18,17 +18,31 @@
   <script src="js/waypoints.js" type="text/javascript"></script>
   <script src="js/toggler.js" type="text/javascript"></script>
   <script src="js/ityped.js" type="text/javascript"></script>
+
+  <script src="js/particles.js" type="text/javascript"></script>
+  <script>
+    particlesJS.load('particles-js', 'js/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+
 </head>
 <body>
+
  <!--intro image -->
+
   <section class="intro">
+    <div id="particles-js"></div>
     <div class="inner">
       <div class="content">
         <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
-          <h1>Polperse</h1>
+          <h1>Pensa en Crypto</h1>
         </section>
         <section class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="2s">
-          <a class="btn" href="#">Get to know me</a>
+          <h2 class="subtitle">Clases Personales de Introducción al Mercado, Interpretación de Graficos y Mejores Prácticas de Inversión</h2>
+        </section>
+        <section class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="4s">
+          <a class="btn" href="#">Entrar</a>
         </section>
       </div>
     </div>
@@ -38,93 +52,81 @@
 <!-- portfolio site -->
   <div class="wrapper">
     <div class="main-header">
-      <!-- <div class="row" id="header">
-        <div class="col-12">
-          <img class="logo" src="img/flexy-logo.png">
+      <div class="darken">
+        <!-- <div class="row" id="header">
+          <div class="col-12">
+            <img class="logo" src="img/flexy-logo.png">
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-12">
+            <nav role="navigation" id="nav">
+              <input class="trigger" type="checkbox"  id="mainNavButton">
+              <label for="mainNavButton" onclick>Menu</label>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clases</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div> -->
-      <div class="row">
-        <div class="col-12">
-          <nav role="navigation" id="nav">
-            <input class="trigger" type="checkbox"  id="mainNavButton">
-            <label for="mainNavButton" onclick>Menu</label>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h1 class="text-typing">Hi there!<br>I'm Pablo and I love to:<br>
-            <span class="ityped-element"></span>
-          </h1>
-          <script type="text/javascript">
-            window.ityped.init(document.querySelector('.ityped-element'),{
-              strings : ['code in NodeJS','UX design with the team','dig about Raspberry Pi'],
-              loop : true,
-              showCursor : true
-            })
-          </script>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-typing">En Internet vas a encontrar muchos tutoriales y cursos sobre Cryptomonedas y DayTrading... Pero acá tenes un tutor particular que te lo explica a tu ritmo y pudiendo evacuar todas las dudas que necesites.<br><br> Podes elegir entre:
+              <ul>
+                <li>Cryptomonedas desde Cero</li>
+                <li>Interpretación de Gráficos de Acciones</li>
+                <li>Day Trading y Reconocimiento de Patrones</li>
+              </ul>
+              <span class="ityped-element"></span>
+            </h1>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="row">
       <div class="col-12" id="divider-text">
-        <h2 class="dark">Talents & skills</h2>
+        <h2 class="dark">Clases y su Temario</h2>
       </div>
     </div>
 
     <div class="pimg1">
       <div class="ptext">
         <span class="border-ptext">
-          Design Thinking
+          Cryptomonedas desde Cero
         </span>
       </div>
     </div>
 
-    <section class="section-parallax section-light">
-      <!-- <h2>UX Design</h2> -->
+    <section class="section-parallax section-dark">
+      <h2>Temas que abarca</h2>
       <p>
-        During hackweeks, together with the UX Team, we implemented design thinking techniques that were later applied to research our clients’ needs and identify enhancement opportunities.
-        <br> We used Empathy Maps & Voting during Design Studio sessions as a way to reach consensus among all participants.
+        Cómo hacer para ingresar en el mercado? Te guiamos desde pesos hasta Bitcoins <br>Qué es un Exchange? Cómo funcionan? <br> Para qué quiero una billetera virtual si puedo dejar mis monedas en el exchange?
+        <br>Descubrí y conocé las comisiones involucradas entre transacciones
       </p>
     </section>
 
     <div class="pimg2">
+      <div class="ptext">
+        <span class="border-ptext">
+          Interpretación de Gráficos
+        </span>
+      </div>
     </div>
 
     <section class="section-parallax section-dark">
-      <h2>Coding & Design</h2>
       <p>
-        From time to time, a need would rise and resources would not be available to develop them. Rolled over my sleeves and got into it.
+        Gráfico de Velas; Interfaz básica y avanzada de Binance; Indicadores (Bollinger Bands, MACD, EMA, etc); Lectura del mercado; Psicología del mercado; Sentiments; Cuándo entrar y cuándo salir.
       </p>
     </section>
 
     <div class="pimg3">
       <div class="ptext">
         <span class="border-ptext">
-          SF Weather
-        </span>
-      </div>
-    </div>
-
-    <section class="section-parallax section-light">
-      <!-- <h2>UX Design</h2> -->
-      <p>
-        Consisted on a Twitter reply with an automatic generated image of the desired location's current weather forecast.
-      </p>
-    </section>
-
-    <div class="pimg4">
-      <div class="ptext">
-        <span class="border-ptext">
-          Next 4 Weeks
+          Day Trading y sus Patrones
         </span>
       </div>
     </div>
@@ -132,38 +134,26 @@
     <section class="section-parallax section-dark">
       <!-- <h2>UX Design</h2> -->
       <p>
-        A web application integrated with an internal google-sheet and Trello to quickly know creative services' overall time availability during the next four weeks. It displayed deadlines (skulls) as well.
+        Dejar tu inversión petrificada para ver si algún día sube, es considerado - por muchos - como una pérdida de dinero. Aprendé estrategias para que vos mismo puedas incrementar tu inversión día a día! <br> Bullish & Bearish; Penny-Stock-Market; Day Trading; Patrones de fluctuación; Estrategias para reducción de Riesgo; La Regla de Oro.
       </p>
     </section>
-
-    <div class="pimg5">
-      <div class="ptext">
-        <span class="border-ptext">
-          Illustrator art for fun
-        </span>
-      </div>
-    </div>
 
     <div class="row">
-      <div class="col-12" id="divider-text">
-        <h2 class="dark">Projects & Experience</h2>
+      <div class="col-12" id="contact-text">
+        <h2>Contactate!</h2>
       </div>
     </div>
 
-    <div class="pimg7">
-      <div class="ptext">
-        <span class="border-ptext">
-          Argenclix
-        </span>
+    <dir class="row">
+      <div class="col-12" id="contact-text">
+        <p>formulario</p>
+        <p>nombre</p>
+        <p>caballos</p>
+        <p>enviar</p>
       </div>
-    </div>
+    </dir>
 
-    <section class="section-parallax section-light">
-      <!-- <h2>section 3</h2> -->
-      <p>
-        Online community site based on Wordpress and PhpBB Forum. Made it for free. As an interesting technical point to highlight: Made it in a way that, should you register on either Wordpress or on PhpBB, your user will also exist in the other one and you will be logged on both.
-      </p>
-    </section>
+
 
     <div class="pimg6">
       <!-- <div class="ptext">
@@ -172,63 +162,6 @@
         </span>
       </div> -->
     </div>
-
-    <!-- <div class="row">
-      <div class="col-12" id="blue-background">
-        <img src="img/paper.png">
-      </div>
-    </div>
-
-    <div class="row" id="orange-background">
-      <div class="col-11">
-        <h2>Get ready for take off!</h2>
-      </div>
-      <div class="col-3">
-        <img class="circle" src="img/take-off.png">
-      </div>
-    </div>
-
-    <div class="row" id="green-background">
-      <div class="col-10">
-        <h2>Random Text 2!</h2>
-      </div>
-      <div class="col-3">
-        <img class="circle" src="img/orange-globe.png">
-      </div>
-    </div>
-
-    <div class="row" id="lime-background">
-      <div class="col-9">
-        <h2 class="dark">Random Text 3!</h2>
-      </div>
-      <div class="col-3">
-        <img class="circle" src="img/waves.png">
-      </div>
-    </div>
-
-    <div class="row" id="darkblue-background">
-      <div class="col-8">
-        <h2>Random Text 4!</h2>
-      </div>
-      <div class="col-3">
-        <img class="circle" src="img/plane.png">
-      </div>
-    </div>
-
-    <div class="row" id="lightblue-background">
-      <div class="col-7">
-        <h2>Random Text 5!</h2>
-      </div>
-      <div class="col-3">
-        <img class="circle" src="img/paper-blue.png">
-      </div>
-    </div>
-
-    <div class="row" id="bottom-img">
-      <div class="col-12">
-        <img src="img/plane-background.png">
-      </div>
-    </div> -->
 
     <div class="row">
       <div class="col-12" id="follow-text">
